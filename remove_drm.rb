@@ -100,7 +100,7 @@ class MobiBook
         # Only type 0, 1, 2 are valid.
         @crypto_type = crypto_type
         if crypto_type == 0
-            put "This book is not encrypted!"
+            puts "This book is not encrypted!"
             exit false 
         end
 
